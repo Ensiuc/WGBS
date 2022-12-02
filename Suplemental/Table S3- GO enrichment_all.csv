@@ -1,0 +1,1001 @@
+,Enrichment FDR,nGenes,Pathway Genes,Fold Enrichment,Pathway,Genes,URL
+,0.000522315435431,9,1231,8.37597362259282,MiR-187 target gene, vmp1  calcr  b3gat1a  aqp12  cacng1b  dvl2  srebf1  hoxc1a  hoxc8a,http://www.targetscan.org
+,0.00666481004619,8,1433,6.39579656007553,Transmembrane transporter activity , slc1a4  cacna1ba  aqp12  cacng1b  ndufaf2  slc30a6  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0022857
+,0.00884250352817,8,1534,5.97469131068333,Transporter activity , slc1a4  cacna1ba  aqp12  cacng1b  ndufaf2  slc30a6  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0005215
+,9.72869848988813E-05,7,378,21.2156862745098,Somite, mapk14a  calcr  fzd8a  pld1a  myo18ab  dio2  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,7,1501,5.34279108045617,Transmembrane transport , slc1a4  cacna1ba  aqp12  cacng1b  slc30a6  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0055085
+,0.000324912783325,6,333,20.6422893481717,Intermediate mesoderm, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000324912783325,6,333,20.6422893481717,Lateral plate mesoderm, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000324912783325,6,333,20.6422893481717,Mesoderm, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000324912783325,6,333,20.6422893481717,Paraxial mesoderm, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000324912783325,6,300,22.9129411764706,Somite development, calcr  fzd8a  pld1a  myo18ab  dio2  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000451733741237,6,368,18.6790281329923,Mesoderm development, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000451733741237,6,368,18.6790281329923,Paraxial mesoderm development, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000573056729461,6,403,17.0567800321121,Mesoderm formation, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.000573056729461,6,403,17.0567800321121,Paraxial mesoderm formation, ldb2a  calcr  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.001333693638268,5,276,20.7544757033248,Hypoblast, ldb2a  fzd8a  pld1a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.0058447638336,5,397,14.4288042672989,MAPK signaling pathway, mapk14a  cacna1ba  cacng1b  nfatc3a  pdgfc,http://www.genome.jp/kegg-bin/show_pathway?dre04010 
+,0.025967565595614,5,735,7.79351740696279,Cation transmembrane transporter activity , cacna1ba  cacng1b  slc30a6  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0008324
+,0.025967565595614,5,650,8.81266968325792,Channel activity , cacna1ba  aqp12  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0015267
+,0.025967565595614,5,650,8.81266968325792,Passive transmembrane transporter activity , cacna1ba  aqp12  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0022803
+,0.050437217230391,5,1369,4.18424784084562,Protein phosphorylation , mapk14a  prkcha  slka  pkig  stk10, http://amigo.geneontology.org/amigo/term/GO:0006468
+,0.050437217230391,5,1247,4.59361290626916,Ion transport , cacna1ba  cacng1b  slc30a6  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0006811
+,0.050437217230391,5,965,5.93599512343798,Ion transmembrane transporter activity , cacna1ba  cacng1b  slc30a6  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0015075
+,0.050454250443478,5,1573,3.64159904266856,Cell surface receptor signaling pathway , calcr  fzd8a  dvl2  pdgfc  grin3bb, http://amigo.geneontology.org/amigo/term/GO:0007166
+,0.050871459410401,5,1586,3.61174987018767,Hif1ab-Hypoxia inducible factor 1 alpha target gene, SBNO2  ankrd12  iffo1b  nfatc3a  slc30a6,http://gtrd.biouml.org
+,0.053104425149447,5,1605,3.56899395272128,MiR-196 target gene, mthfd1l  myo18ab  hoxc1a  hoxc8a  klf15,http://www.targetscan.org
+,0.054126851578257,5,1618,3.54031847596888,Phosphorylation , mapk14a  prkcha  slka  pkig  stk10, http://amigo.geneontology.org/amigo/term/GO:0016310
+,0.063014853700957,5,1698,3.37351901891499,Signal Transduction, prkcha  fzd8a  dvl2  pdgfc  chn1,https://reactome.org/download/current
+,0.072722605908125,5,1781,3.21630280410873,Intracellular signal transduction , mapk14a  prkcha  dvl2  pld1a  chn1, http://amigo.geneontology.org/amigo/term/GO:0035556
+,0.001019002047544,4,112,40.9159663865546,Axis, slc1a4  dvl2  srebf1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.004789723400725,4,174,26.3367139959432,Twitch skeletal muscle contraction, palld  myo18ab  hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.004837302794626,4,177,25.8903290129611,Kidney epithelial cell, palld  pld1a  myo18ab  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.005745942023282,4,190,24.1188854489164,Muscle organ development, palld  dvl2  hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.005745942023282,4,190,24.1188854489164,Skeletal muscle tissue development, palld  dvl2  hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.006667836087922,4,209,21.9262594990149,Wnt signaling pathway, wif1  fzd8a  dvl2  nfatc3a,http://www.genome.jp/kegg-bin/show_pathway?dre04310 
+,0.00884250352817,4,231,19.8380443086325,Swimming, dvl2  srebf1  dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.018342212555029,4,289,15.8567066965194,Mesenchyme, wif1  ldb2a  myo18ab  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,4,443,10.3444429690612,Cation channel activity , cacna1ba  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0005261
+,0.030797949830423,4,470,9.75018773466834,Actin binding , scin  myo18ab  si:dkey-178k16.1  myo16, http://amigo.geneontology.org/amigo/term/GO:0003779
+,0.041574024294131,4,521,8.79575477023823,Animal organ morphogenesis, ldb2a  calcr  dio2  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,4,847,5.41037572053615,Cation transport , cacna1ba  cacng1b  slc30a6  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0006812
+,0.050437217230391,4,563,8.13958833977641,Actin filament-based process , scin  myo18ab  si:dkey-178k16.1  myo16, http://amigo.geneontology.org/amigo/term/GO:0030029
+,0.050437217230391,4,914,5.01377268631742,Ion transmembrane transport , cacna1ba  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0034220
+,0.050437217230391,4,677,6.76896341993223,Protein serine/threonine kinase activity , mapk14a  prkcha  slka  stk10, http://amigo.geneontology.org/amigo/term/GO:0004674
+,0.050437217230391,4,576,7.95588235294118,Ion channel activity , cacna1ba  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0005216
+,0.050437217230391,4,778,5.89021624073794,Cytoskeletal protein binding , scin  myo18ab  si:dkey-178k16.1  myo16, http://amigo.geneontology.org/amigo/term/GO:0008092
+,0.050437217230391,4,881,5.20157574948254,Inorganic molecular entity transmembrane transporter activity , cacna1ba  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0015318
+,0.050437217230391,4,701,6.537215742217,Inorganic cation transmembrane transporter activity , cacna1ba  cacng1b  grin3bb  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0022890
+,0.063098897548916,4,1112,4.12103258569615,Protein kinase activity , mapk14a  prkcha  slka  stk10, http://amigo.geneontology.org/amigo/term/GO:0004672
+,0.069004927604301,4,1153,3.97449109739299,Cytoskeleton , myo18ab  iffo1b  si:dkey-178k16.1  myo16, http://amigo.geneontology.org/amigo/term/GO:0005856
+,0.006559282118806,3,68,50.5432525951557,Somite 8, mapk14a  myo18ab  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.016695299998451,3,102,33.6955017301038,Somite 4, mapk14a  calcr  fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,125,27.4955294117647,Response to chemical, srebf1  dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,189,18.1848739495798,Swimming behavior, srebf1  dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,179,19.2007886953664,Actin cytoskeleton organization, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,179,19.2007886953664,Actin filament organization, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,179,19.2007886953664,B cell differentiation, ldb2a  hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,170,20.2173010380623,Calcium ion transport, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,173,19.8667120027202,Cardiac muscle myoblast, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,171,20.0990712074303,Cell proliferation in midbrain, ldb2a  fzd8a  hoxc1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,182,18.8842921784098,Central nervous system neuron development, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,165,20.8299465240642,Forebrain development, ldb2a  hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,182,18.8842921784098,Hypothalamus development, ldb2a  hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,144,23.8676470588235,Medulla oblongata, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,167,20.5804860866502,Neuron development, ldb2a  hoxc1a  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,179,19.2007886953664,Ossification, palld  dvl2  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,163,21.0855286900036,Preoptic area, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,176,19.5280748663102,Regulation of cellular pH reduction, palld  pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,174,19.7525354969574,Regulation of protein kinase B signaling, palld  pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,169,20.3369300382875,Reproductive behavior, aqp12  pld1a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,176,19.5280748663102,Skeletal muscle organ development, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,184,18.6790281329923,Skeletal system development, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,177,19.4177467597208,Skeletal system morphogenesis, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,177,19.4177467597208,Skeletal tissue, palld  hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,184,18.6790281329923,Spinal cord interneuron, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,186,18.4781783681214,Striated muscle cell differentiation, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,168,20.4579831932773,Somite 1, mapk14a  pld1a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,133,25.8416629809819,WP215 Noncanonical Wnt Pathway, wif1  fzd8a  dvl2,http://www.wikipathways.org/instance/WP215_r95547
+,0.025967565595614,3,150,22.9129411764706,WP566 Canonical wnt signaling, wif1  fzd8a  dvl2,http://www.wikipathways.org/instance/WP566_r96484
+,0.025967565595614,3,181,18.9886252843679,Cerebellar crest, mthfd1l  hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,159,21.6159822419534,Diencephalon, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,185,18.5780604133545,Dorsal telencephalon, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,159,21.6159822419534,Dorsal thalamus, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,175,19.6396638655462,Mesangial cell, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,169,20.3369300382875,Pericyte, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,159,21.6159822419534,Thalamus, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,172,19.9822161422709,Yolk, palld  aqp12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,172,19.9822161422709,Barrier epithelial cell, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,175,19.6396638655462,Renal vesicle, mthfd1l  hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,181,18.9886252843679,Antibiotic transport, palld  pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,181,18.9886252843679,Cerebellar granule cell differentiation, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,185,18.5780604133545,Cerebellar neuron development, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,187,18.3793645800566,CoSA, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,167,20.5804860866502,Dopamine biosynthetic process from tyrosine, ldb2a  gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,170,20.2173010380623,Golgi organization, palld  dvl2  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,182,18.8842921784098,Hepatocyte cell migration, palld  dvl2  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,168,20.4579831932773,Hindbrain commissure, ndufaf2  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,179,19.2007886953664,Hyosymplectic cartilage, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,181,18.9886252843679,Integrin biosynthetic process, palld  pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,186,18.4781783681214,Interkinetic nuclear migration, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,188,18.2816020025031,Mauthner neuron, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,181,18.9886252843679,Mesonephric nephron, mthfd1l  hoxc1a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,183,18.7810993249759,Muscle cell cellular homeostasis, palld  pld1a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,182,18.8842921784098,Muscle cell differentiation, palld  myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,180,19.0941176470588,Regulation of apoptotic process, palld  aqp12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,177,19.4177467597208,Sarcomerogenesis, palld  hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,186,18.4781783681214,Spinal cord development, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,188,18.2816020025031,Terminal nerve, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,183,18.7810993249759,Thalamus development, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,3,185,18.5780604133545,Ventral spinal nerve, hoxc1a  hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.027526169472274,3,194,17.7161916312917,Voltage-gated cation channel activity , cacna1ba  cacng1b  grin3bb, http://amigo.geneontology.org/amigo/term/GO:0022843
+,0.029553737983877,3,200,17.1847058823529,WP1337 MAPK Signaling Pathway, mapk14a  cacng1b  nfatc3a,http://www.wikipathways.org/instance/WP1337_r96395
+,0.042754190102997,3,237,14.5018615040953,Embryonic organ development, calcr  dio2  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.042754190102997,3,237,14.5018615040953,Voltage-gated ion channel activity , cacna1ba  cacng1b  grin3bb, http://amigo.geneontology.org/amigo/term/GO:0005244
+,0.042918578096557,3,239,14.3805070145213,Voltage-gated channel activity , cacna1ba  cacng1b  grin3bb, http://amigo.geneontology.org/amigo/term/GO:0022832
+,0.042918578096557,3,238,14.4409293129016,Actin filament binding , scin  myo18ab  myo16, http://amigo.geneontology.org/amigo/term/GO:0051015
+,0.042918578096557,3,240,14.3205882352941,Heart development, mapk14a  dvl2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.044466976085051,3,244,14.0858244937319,MRNA transcription, srebf1  dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,3,320,10.7404411764706,Gastrulation, fzd8a  dvl2  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,3,504,6.81932773109244,Transport of small molecules, slc1a4  aqp12  slc30a6,https://reactome.org/download/current
+,0.050437217230391,3,289,11.8925300223896,Neuronal System, cacna1ba  si:dkey-178k16.1  kcnk9,https://reactome.org/download/current
+,0.050437217230391,3,472,7.28165503489531,Gated channel activity , cacna1ba  cacng1b  grin3bb, http://amigo.geneontology.org/amigo/term/GO:0022836
+,0.050437217230391,3,503,6.83288504268507,Protein-containing complex binding , scin  myo18ab  myo16, http://amigo.geneontology.org/amigo/term/GO:0044877
+,0.050437217230391,3,468,7.34389140271493,Metal ion transmembrane transporter activity , cacna1ba  cacng1b  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0046873
+,0.050437217230391,3,285,12.0594427244582,Eye development, wif1  dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,3,331,10.3835080860139,Neural tube development, ppm1e  dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.051259892496353,3,550,6.24898395721925,Actin cytoskeleton organization , myo18ab  si:dkey-178k16.1  myo16, http://amigo.geneontology.org/amigo/term/GO:0030036
+,0.056148303029494,3,575,5.97728900255754,Inorganic cation transmembrane transport , cacna1ba  cacng1b  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0098662
+,0.063547029565924,3,609,5.64358157055926,Metal ion transport , cacna1ba  cacng1b  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0030001
+,0.065406963869648,3,618,5.56139348943461,Anatomical structure formation involved in morphogenesis , fzd8a  myo18ab  chn1, http://amigo.geneontology.org/amigo/term/GO:0048646
+,0.07027789131817,3,641,5.36184270900248,Inorganic ion transmembrane transport , cacna1ba  cacng1b  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0098660
+,0.073597237703302,3,654,5.25526173772261,Cation transmembrane transport , cacna1ba  cacng1b  kcnk9, http://amigo.geneontology.org/amigo/term/GO:0098655
+,0.006667836087922,2,10,229.129411764706,NADH dehydrogenase (ubiquinone) activity, calcr  ndufaf2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.00884250352817,2,12,190.941176470588,Asymmetric localization of PCP proteins, fzd8a  dvl2,https://reactome.org/download/current
+,0.018342212555029,2,19,120.594427244582,Blood plasma, srebf1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,2,37,61.9268680445151,PCP/CE pathway, fzd8a  dvl2,https://reactome.org/download/current
+,0.025967565595614,2,29,79.0101419878296,Extension, dvl2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,2,37,61.9268680445151,Pkinase, mapk14a  stk10,https://amp.pharm.mssm.edu/FishEnrichr
+,0.025967565595614,2,38,60.297213622291,Optokinetic behavior, dio2  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.029519873550198,2,45,50.9176470588235,Somite 10, calcr  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.031392438045636,2,47,48.7509386733417,Voltage-gated calcium channel complex , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0005891
+,0.035221234851147,2,50,45.8258823529412,WP1349 Wnt Signaling Pathway, prkcha  dvl2,http://www.wikipathways.org/instance/WP1349_r82353
+,0.039229848834488,2,53,43.2319644839068,Glucose homeostasis, slc1a4  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.040059269029425,2,54,42.4313725490196,Central nervous system, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.040059269029425,2,54,42.4313725490196,Fatty acid metabolic process, srebf1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.040888277773033,2,55,41.6598930481283,Calcium channel complex , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0034704
+,0.040888277773033,2,55,41.6598930481283,Voltage-gated calcium channel activity , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0005245
+,0.041574024294131,2,56,40.9159663865546,Homeobox domain metazoa, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.041574024294131,2,56,40.9159663865546,Protein kinase domain, mapk14a  stk10,https://amp.pharm.mssm.edu/FishEnrichr
+,0.042220193485932,2,57,40.1981424148607,Myoblast, myo18ab  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.042918578096557,2,59,38.8354935194417,Action potential, wif1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.042918578096557,2,59,38.8354935194417,Nervous system, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Rhombomere, dvl2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,107,21.4139637163277,Rhombomere 1, dvl2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,95,24.1188854489164,Somite 14, mapk14a  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,145,15.8020283975659,Trunk mesenchyme, mapk14a  wif1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,126,18.1848739495798,Water homeostasis, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,73,31.3875906526994,Water transport, srebf1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,73,31.3875906526994,"Wnt signaling pathway, planar cell polarity pathway", fzd8a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Actin binding, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Adherens junction assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Adherens junction maintenance, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Adherens junction organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,116,19.7525354969574,Amyloid precursor protein metabolic process, vmp1  fbxo16,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Anatomical system, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Anterior neural tube, dvl2  hoxc1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Aorta development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,162,14.1437908496732,Atrial cardiac muscle cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Atrial cardiac muscle cell differentiation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Atrial cardiac muscle tissue morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Atrial myocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Atrioventricular canal, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Atrioventricular canal development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Atrioventricular canal endocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Atrioventricular canal morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Atrioventricular valve morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Axial mesoderm formation, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Axon guidance, ldb2a  hoxc1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Basement membrane organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Bone mineralization, fzd8a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,CaP motoneuron, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Cardiac atrium development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Cardiac atrium morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Cardiac chamber formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,163,14.0570191266691,Cardiac chamber morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Cardiac conduction system development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Cardiac jelly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Cardiac muscle, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,162,14.1437908496732,Cardiac muscle adaptation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Cardiac muscle cell, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Cardiac muscle cell apoptotic process, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Cardiac muscle cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Cardiac muscle cell differentiation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Cardiac muscle cell proliferation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Cardiac muscle contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Cardiac muscle fiber development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Cardiac muscle tissue development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Cardiac muscle tissue morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Cardiac myofibril assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Cardiac ventricle, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Cardiac ventricle development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Cardiac ventricle morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Cardiocyte differentiation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Cardiovascular system development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Caudal fin skeleton, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Cell-cell adhesion, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Cell-cell adhesion mediated by cadherin, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Cell-cell junction maintenance, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Cell differentiation in hindbrain, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Cell proliferation in hindbrain, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,148,15.4817170111288,Cellular response to ionizing radiation, prkcha  samd7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Central nervous system development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Central nervous system neuron differentiation, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Cerebellum development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Chemokine production, vmp1  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Chondroitin sulfate proteoglycan biosynthetic process, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Cranial nerve development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Cranial nerve V, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Cytoplasm organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Developmental growth, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Diencephalon development, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Digestive system duct, aqp12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,161,14.2316404822799,DNA demethylation, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Dopaminergic neuron, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Dopaminergic neuron differentiation, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Dorsal aorta development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Dorsal aorta morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Dorsal root ganglion, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Dorsal root ganglion development, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Ectodermal cell, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Ectomesenchyme, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Embryonic cranial skeleton morphogenesis, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Embryonic skeletal system development, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Endocardial cushion, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Endocardial cushion development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Endocardial cushion formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Endocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Endocardium development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Endocardium formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Endocardium morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Endodermal cell fate specification, mapk14a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Endothelial tip cell, ldb2a  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Epiblast, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Epicardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Floor plate neural tube, fzd8a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Forebrain cell migration, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Forebrain midbrain boundary, fzd8a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Forebrain neuron development, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Germ cell migration, samd7  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Glomerular visceral epithelial cell migration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Glutamatergic neuron, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Glycinergic neuron, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Golgi to plasma membrane protein transport, ankrd12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Heart contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Heart formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Heart looping, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Heart morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Heart tube, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Heart valve morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Hematopoietic stem cell, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Hematopoietic system, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Hindbrain, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Hindbrain development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Hindbrain interneuron, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Hindbrain neural plate, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Hindbrain neural tube, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Innervation, wif1  mthfd1l,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Insulin secreting cell, mthfd1l  hoxc1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Interneuron, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Intersegmental vessel, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,127,18.0416859657249,Larval behavior, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Lateral dorsal aorta, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Lipoprotein biosynthetic process, mthfd1l  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Lipoprotein catabolic process, mthfd1l  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,158,14.5018615040953,Male mating behavior, aqp12  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,161,14.2316404822799,Mating, aqp12  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,158,14.5018615040953,Mating behavior, aqp12  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Mature neutrophil, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Midbrain-hindbrain boundary development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Midbrain-hindbrain boundary morphogenesis, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Midbrain-hindbrain boundary structural organization, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Midbrain development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Muscle cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Muscle cell proliferation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Muscle contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Muscle fiber development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Muscle organ morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Muscle pioneer, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Muscle structure development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Muscle tissue development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Myoblast fusion, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Myocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Myofibril assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Myosin filament organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Myotome, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Myotome development, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Myotube cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Negative regulation of hh target transcription factor activity, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Nephron, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Neural plate, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Neural plate formation, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Neuroectoderm, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Neuroendocrine cell, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Neuromast development, dvl2  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Notochord posterior region, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Ocular blood vessel, mthfd1l  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,118,19.4177467597208,Olfactory receptor cell, ldb2a  igsf5b,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Olfactory system, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Optic stalk, fzd8a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Pancreatic epsilon cell, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Parachordal vessel, ldb2a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Parasympathetic nervous system development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Pectoral fin morphogenesis, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Pectoral fin nerve, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Pericardial cavity, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Pericardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Primary motor neuron, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Primitive heart tube, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Pronephric glomerulus, mapk14a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Pronephric glomerulus morphogenesis, mapk14a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Protein kinase activity, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,161,14.2316404822799,Protein kinase B signaling, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Regulation of blood vessel remodeling, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Regulation of cardiac muscle contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Regulation of cardiac muscle contraction by calcium ion signaling, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Regulation of cellular response to stress, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Regulation of muscle contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Regulation of neural precursor cell proliferation, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Regulation of neural retina development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,139,16.4841303427846,Regulation of nitric oxide biosynthetic process, igsf5b  grin3bb,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Regulation of ossification, palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Regulation of protein targeting to membrane, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Response to muscle activity, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Reticular formation, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Retinal ganglion cell axon guidance, mthfd1l  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Retinal inner plexiform layer, samd7  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Rhombomere 3, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Rhombomere 7, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Rohon-Beard neuron, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Sarcomere organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Serotonergic neuron, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Skeletal muscle cell, palld  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Skeletal muscle cell differentiation, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Skeletal muscle contraction, palld  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Skeletal muscle fiber development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Skeletal muscle myoblast, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Slow muscle cell, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Smooth muscle cell differentiation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,162,14.1437908496732,Smooth muscle tissue development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Somite 13, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Somite 16, mthfd1l  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Somite 18, pld1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Somite 26, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Somitogenesis, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Spinal cord oligodendrocyte cell fate specification, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Striated muscle cell, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Striated muscle cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Striated muscle contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Striated muscle tissue development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,162,14.1437908496732,Synapse assembly, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,138,16.6035805626598,T cell differentiation, ldb2a  igsf5b,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Tissue regeneration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Trigeminal ganglion, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Trigeminal neural crest, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Trunk musculature, palld  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Tube formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Vascular endothelial growth factor signaling pathway, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Vasculature development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Vasculogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Ventral habenular nucleus, fzd8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Ventral nucleus of ventral telencephalon, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Ventral spinal cord development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Ventral telencephalon, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Ventricular cardiac muscle cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Ventricular cardiac muscle cell differentiation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Ventricular cardiac muscle tissue morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,163,14.0570191266691,Ventricular endocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Ventricular epicardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Ventricular myocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Ventricular system development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Axon development, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,113,20.2769390942218,Developmental growth involved in morphogenesis, fzd8a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,102,22.4636678200692,Developmental process, dvl2  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,166,13.8029766123317,Endoderm development, ldb2a  fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Endoderm formation, ldb2a  fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,161,14.2316404822799,Gastrula cell, fzd8a  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,157,14.5942300487074,Somite 2, pld1a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,114,20.0990712074303,Somite 3, mapk14a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Signaling by WNT, fzd8a  dvl2,https://reactome.org/download/current
+,0.050437217230391,2,65,35.2506787330317,Beta-catenin independent WNT signaling, fzd8a  dvl2,https://reactome.org/download/current
+,0.050437217230391,2,102,22.4636678200692,Cardiac conduction, cacng1b  kcnk9,https://reactome.org/download/current
+,0.050437217230391,2,99,23.144385026738,TCF dependent signaling in response to WNT, fzd8a  dvl2,https://reactome.org/download/current
+,0.050437217230391,2,115,19.9242966751918,Cardiomyopathy, klf15  pdlim7,https://www.alliancegenome.org/downloads
+,0.050437217230391,2,169,13.5579533588583,Visual epilepsy, pld1a  gap43,https://www.alliancegenome.org/downloads
+,0.050437217230391,2,77,29.7570664629488,Osteoporosis, mapk14a  calcr,https://www.alliancegenome.org/downloads
+,0.050437217230391,2,69,33.2071611253197,WP1344 Wnt Signaling Pathway and Pluripotency, prkcha  dvl2,http://www.wikipathways.org/instance/WP1344_r96493
+,0.050437217230391,2,175,13.0931092436975,Expressed-in liver increased-amount abnormal, srebf1  dio2,https://zfin.org/downloads
+,0.050437217230391,2,82,27.9426111908178,Thigmotaxis disrupted abnormal, myo18ab  pdlim7,https://zfin.org/downloads
+,0.050437217230391,2,132,17.3582887700535,Neurodegenerative disease, slc1a4  dvl2,https://www.alliancegenome.org/downloads
+,0.050437217230391,2,184,12.4526854219949,Anterior lateral plate mesoderm, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Barrier cell, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Blood cell, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Bulbus arteriosus, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Cardiac mesenchymal cell, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Cerebellar plate, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Ciliary zone, samd7  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Compact layer of ventricle, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Dermis, mthfd1l  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Endocardial ring, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Epithelial cell, dvl2  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Floor plate rhombomere 2, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Floor plate rhombomere region, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Forebrain neural keel, samd7  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Forebrain neural tube, fzd8a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Forebrain ventricle, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Ganglion, samd7  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Heart valve, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Hypophysis, ldb2a  aqp12,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Internal cellular layer, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Intervening zone, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,163,14.0570191266691,Lateral zone olfactory bulb, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Lens capsule, mthfd1l  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Medial valvula cerebelli, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Medial zone olfactory bulb, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Midbrain hindbrain boundary neural plate, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Midbrain hindbrain boundary neural tube, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Midbrain neural plate, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Molecular layer valvula cerebelli, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Muscle, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Myocardial precursor, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Nephron progenitor, chn1  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Neural plate border, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Neural tube, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Neurohypophysis, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,160,14.3205882352941,Olfactory bulb, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Optic choroid, fzd8a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Oral cavity, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Osteoclast, fzd8a  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Outer limiting membrane, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Portion of connective tissue, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Posterior neural tube, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Posterior presumptive neural plate, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Pretectum, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Purkinje cell layer valvula cerebelli, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Rhombic lip, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Serous membrane, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Spinal cord neural plate, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Spinal cord neural tube, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Tegmentum, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Telencephalon, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Thyroid follicle, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Trabecular layer, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Upper rhombic lip, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Vasculature, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Ventral horn spinal cord, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,156,14.6877828054299,Ventral zone olfactory bulb, ndufaf2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Absorptive cell, hoxc8a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Digestive enzyme secreting cell, mthfd1l  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,71,32.2717481358741,Diabetic neuropathy, mapk14a  srebf1,https://www.alliancegenome.org/downloads
+,0.050437217230391,2,136,16.8477508650519,Cellular modified amino acid metabolic process , mthfd1l  dio2, http://amigo.geneontology.org/amigo/term/GO:0006575
+,0.050437217230391,2,121,18.9363150218765,Actomyosin structure organization , myo18ab  si:dkey-178k16.1, http://amigo.geneontology.org/amigo/term/GO:0031032
+,0.050437217230391,2,96,23.8676470588235,Homeobox domain, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,94,24.3754693366708,Homeodomain, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Actin polymerization or depolymerization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Aerobic respiration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Amacrine cell, samd7  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Angiogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Anterior commissure, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,155,14.7825426944972,Anterior commissure morphogenesis, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Apical protein localization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Apoptotic cell clearance, mapk14a  vmp1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Atrial endocardium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Calcium ion transmembrane transport , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0070588
+,0.050437217230391,2,165,13.8866310160428,Atrium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Autonomic nervous system development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Axon extension, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Axonal fasciculation, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Behavioral fear response, palld  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Blastemal cell, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Blood vasculature, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Blood vessel development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Blood vessel endothelium, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Blood vessel remodeling, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Bone development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Bone growth, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Brain morphogenesis, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Brain vasculature, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Bulbus arteriosus development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Bulbus arteriosus formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Calcium-mediated signaling, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Carbohydrate metabolic process, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Cardiac conduction system, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Cardiac muscle cell action potential, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Cardiac muscle tissue regeneration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Cardiovascular system, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Caudal fin development, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,87,26.3367139959432,Myosin complex , myo18ab  myo16, http://amigo.geneontology.org/amigo/term/GO:0016459
+,0.050437217230391,2,186,12.3187855787476,Cell-cell junction organization, myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Cell adhesion, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Cell death, vmp1  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Cell junction organization, myo18ab  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Cation channel complex , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0034703
+,0.050437217230391,2,177,12.9451645064806,Cellular respiration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Cellular response to heat, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,69,33.2071611253197,Actin-based cell projection , myo16  gap43, http://amigo.geneontology.org/amigo/term/GO:0098858
+,0.050437217230391,2,175,13.0931092436975,Chromatin binding , SBNO2  samd7, http://amigo.geneontology.org/amigo/term/GO:0003682
+,0.050437217230391,2,168,13.6386554621849,Cytoskeletal motor activity , myo18ab  myo16, http://amigo.geneontology.org/amigo/term/GO:0003774
+,0.050437217230391,2,175,13.0931092436975,Ceratohyal bone, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Cerebellar granule cell, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Cerebellar Purkinje cell differentiation, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Choroid plexus, pld1a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Ciliary marginal zone, samd7  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,118,19.4177467597208,Calcium channel activity , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0005262
+,0.050437217230391,2,175,13.0931092436975,Circulatory system process, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Commissural neuron axon guidance, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,144,15.9117647058824,Calcium ion transmembrane transporter activity , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0015085
+,0.050437217230391,2,181,12.6590835229119,Cortical actin cytoskeleton organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Cranial nerve I, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Cranial nerve X, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Cytoskeletal anchoring at plasma membrane, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,188,12.1877346683354,Determination of ventral identity, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Phosphatidylinositol binding , pld1a  gap43, http://amigo.geneontology.org/amigo/term/GO:0035091
+,0.050437217230391,2,103,22.2455739577384,Histone binding , SBNO2  samd7, http://amigo.geneontology.org/amigo/term/GO:0042393
+,0.050437217230391,2,179,12.8005257969109,Embryonic heart tube elongation, palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Embryonic heart tube formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Embryonic hindlimb morphogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,148,15.4817170111288,Oocyte meiosis, mapk14a  slka,http://www.genome.jp/kegg-bin/show_pathway?dre04114 
+,0.050437217230391,2,126,18.1848739495798,C-type lectin receptor signaling pathway, mapk14a  nfatc3a,http://www.genome.jp/kegg-bin/show_pathway?dre04625 
+,0.050437217230391,2,125,18.3303529411765,GnRH signaling pathway, mapk14a  pld1a,http://www.genome.jp/kegg-bin/show_pathway?dre04912 
+,0.050437217230391,2,108,21.2156862745098,Progesterone-mediated oocyte maturation, mapk14a  stk10,http://www.genome.jp/kegg-bin/show_pathway?dre04914 
+,0.050437217230391,2,142,16.135874067937,Melanogenesis, fzd8a  dvl2,http://www.genome.jp/kegg-bin/show_pathway?dre04916 
+,0.050437217230391,2,180,12.7294117647059,Endothelial cell, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Endothelial cell development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Enteric nervous system, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Enteric nervous system development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Enteric neuron, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Enteroendocrine cell differentiation, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Ependymal cell, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Epithelial cell proliferation, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Fast-twitch skeletal muscle fiber contraction, hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Fin musculature, mthfd1l  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Forebrain neuron differentiation, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Generation of neurons, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Glomerular filtration, ldb2a  palld,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Glycogen catabolic process, vmp1  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Gut epithelium, pld1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Head muscle, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Heart process, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Heart valve development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Heart valve formation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Heart vasculature, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Hindlimb morphogenesis, palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Histone methyltransferase activity (H3-K9 specific), palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Histone methyltransferase activity (H4-K20 specific), palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Hypophysis formation, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Induction of programmed cell death, mapk14a  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Intestinal epithelial cell, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,L-ascorbic acid metabolic process, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Lateral mesoderm, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Lateral zone of dorsal telencephalon, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Locus ceruleus development, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Medial zone of dorsal telencephalon, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,163,14.0570191266691,Metabolic process, aqp12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,151,15.1741332294507,Midbrain-hindbrain boundary maturation, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Mitochondrion organization, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Motor neuron axon guidance, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Muscle cell, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Muscle cell fate specification, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Muscle cell migration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Muscle thin filament assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Musculature system, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Myoblast proliferation, hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Negative regulation of apoptotic process, dvl2  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Neuron, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Nitric oxide biosynthetic process, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Nitric oxide metabolic process, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Olfactory bulb development, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Olfactory nerve formation, ldb2a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Opercle, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Optic chiasm, fzd8a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Optic chiasma development, fzd8a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Osteoblast differentiation, fzd8a  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Pancreatic ductal cell, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,167,13.7203240577668,Pathogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,139,16.4841303427846,Pectoral fin musculature, hoxc8a  igsf5b,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Pelvic fin bud, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Perineuronal satellite cell, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Peripheral neuron, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Periventricular nucleus, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Phosphatidylinositol 3-kinase signaling, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Positive regulation of angiogenesis, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Posterior lateral line ganglion, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,159,14.4106548279689,Potassium channel activity, ldb2a  palld,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Presumptive neural plate, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Presumptive ventral mesoderm, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Proepicardium development, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Programmed cell death, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Prolactin secreting cell, si:ch211-183d21.1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Prolactin secreting cell development, si:ch211-183d21.1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Prolactin secreting cell differentiation, si:ch211-183d21.1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Proliferative region, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Pronephric distal tubule development, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Pronephric glomerulus development, palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Pronephric podocyte, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Proteoglycan biosynthetic process, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Regeneration, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Regulation of buoyancy, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Regulation of heart contraction, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Regulation of heart rate, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Regulation of neuronal synaptic plasticity, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Regulation of smoothened signaling pathway, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Regulation of vascular endothelial growth factor receptor signaling pathway, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Response to ethanol, pld1a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,181,12.6590835229119,Reticulospinal neuron, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Retinal bipolar neuron differentiation, samd7  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Rhombomere 2, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Rhombomere 6, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Rhombomere 8, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Rhombomere formation, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Rhombomere morphogenesis, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Rib, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Secondary motor neuron, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Segmentation, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Skeletal muscle cell proliferation, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Skeletal muscle myosin thick filament assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Skeletal muscle thin filament assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Skeletal myofibril assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Slow-twitch skeletal muscle fiber contraction, hoxc8a  pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Slow muscle myoblast, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Smooth muscle, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Smooth muscle cell, palld  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Smoothened signaling pathway, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Somatotropin secreting cell differentiation, si:ch211-183d21.1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Somite 23, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Spinal cord commissural neuron specification, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Spinal cord oligodendrocyte cell differentiation, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,180,12.7294117647059,Spiral neuron, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,184,12.4526854219949,Statoacoustic (VIII) ganglion, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,174,13.1683569979716,Steroid biosynthetic process, aqp12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,177,12.9451645064806,Striated muscle myosin thick filament assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,165,13.8866310160428,Superoxide dismutase activity, aqp12  pld1a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Sympathetic nervous system, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Telencephalon cell migration, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,168,13.6386554621849,Thrombocyte, palld  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,170,13.4782006920415,Tooth 4V, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Trigeminal motor nucleus, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,171,13.3993808049536,Trigeminal nerve morphogenesis, hoxc8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Trunk segmentation, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Trunk vasculature, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Vagal ganglion 1, hoxc1a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,183,12.5207328833173,Vagal ganglion 2, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,182,12.5895281189399,Vagal neural crest, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,176,13.0187165775401,Vascular cord, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,172,13.3214774281806,Vascular endothelial growth factor receptor signaling pathway, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Ventral transverse, gap43  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,162,14.1437908496732,Ventricular cardiac myofibril assembly, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,173,13.2444746684801,Ventricular system, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Vertebra, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,169,13.5579533588583,Vertebra 10, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,163,14.0570191266691,Vertebra 2, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Vertebra 7, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,164,13.9713055954089,Vertebral column, palld  myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,175,13.0931092436975,Visceral fat, pld1a  si:ch211-183d21.1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,152,15.0743034055728,Voltage-gated sodium channel activity, pld1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,77,29.7570664629488,Cell migration, dvl2  srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,93,24.6375711574953,Cell morphogenesis, dvl2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,142,16.135874067937,Cell proliferation in forebrain, fzd8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,133,17.2277753206546,Central nervous system morphogenesis, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,120,19.0941176470588,Central nervous system structural organization, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,86,26.6429548563612,Digestive system, srebf1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,95,24.1188854489164,Embryonic morphogenesis, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,187,12.2529097200377,Endothelial cell migration, dvl2  srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,88,26.0374331550802,Fatty acid transport, slc1a4  srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,133,17.2277753206546,Fertilization, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,112,20.4579831932773,Hatching, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,179,12.8005257969109,Head development, myo18ab  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,113,20.2769390942218,Larval development, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,118,19.4177467597208,Locomotion, dvl2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,178,12.8724388631857,Lymphatic endothelial cell migration, dvl2  srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,74,30.9634340222576,Negative regulation of Wnt signaling pathway, wif1  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,95,24.1188854489164,Neuron fate determination, fzd8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,89,25.7448777263714,Neurotransmitter biosynthetic process, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,138,16.6035805626598,Nuclear migration, dvl2  srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,123,18.6284074605452,Pigmentation, srebf1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,71,32.2717481358741,Reactive oxygen species biosynthetic process, mapk14a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,71,32.2717481358741,Reactive oxygen species metabolic process, mapk14a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,186,12.3187855787476,Regulation of gene expression, srebf1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,185,12.385373608903,Regulation of pH, srebf1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,2,116,19.7525354969574,Regulation of reactive oxygen species metabolic process, mapk14a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050454250443478,2,189,12.1232492997199,Central canal, hoxc1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050454250443478,2,189,12.1232492997199,Mid intestine, pld1a  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050454250443478,2,189,12.1232492997199,Tail bud, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050454250443478,2,189,12.1232492997199,Axon , calcr  gap43, http://amigo.geneontology.org/amigo/term/GO:0030424
+,0.050454250443478,2,189,12.1232492997199,Melanocyte migration, dvl2  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050454250443478,2,189,12.1232492997199,Mesothelial cell, palld  dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050642145834504,2,190,12.0594427244582,Endoderm, ldb2a  fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050713353689004,2,191,11.9963042808747,Neuron apoptotic process, vmp1  samd7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050713353689004,2,191,11.9963042808747,Skeletal element, palld  hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050713353689004,2,191,11.9963042808747,Cellular senescence, mapk14a  nfatc3a,http://www.genome.jp/kegg-bin/show_pathway?dre04218 
+,0.051502815996708,2,193,11.871990246876,SLC-mediated transmembrane transport, slc1a4  slc30a6,https://reactome.org/download/current
+,0.051502815996708,2,193,11.871990246876,Retinal cell programmed cell death, dvl2  samd7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.053216437632846,2,197,11.6309346073455,Programmed cell death involved in cell development, wif1  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.053370836227685,2,198,11.572192513369,MTOR signaling pathway, fzd8a  dvl2,http://www.genome.jp/kegg-bin/show_pathway?dre04150 
+,0.05430431412021,2,200,11.4564705882353,Neural retina development, wif1  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.056021728990013,2,204,11.2318339100346,Calcium ion transport , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0006816
+,0.056703990112158,2,206,11.1227869788692,Regulation of growth hormone secretion, slc1a4  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.0586074288021,2,211,10.8592138277112,Head morphogenesis, fzd8a  dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.059596159229012,2,213,10.7572493786247,Protein serine kinase activity , mapk14a  prkcha, http://amigo.geneontology.org/amigo/term/GO:0106310
+,0.063098897548916,2,221,10.3678466861858,Nervous system development, dio2  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.068071202797888,2,233,9.83388033324918,Adrenergic signaling in cardiomyocytes, mapk14a  cacng1b,http://www.genome.jp/kegg-bin/show_pathway?dre04261 
+,0.069004927604301,2,236,9.70887337986042,Wnt signaling pathway , fzd8a  dvl2, http://amigo.geneontology.org/amigo/term/GO:0016055
+,0.069004927604301,2,236,9.70887337986042,Cell-cell signaling by wnt , fzd8a  dvl2, http://amigo.geneontology.org/amigo/term/GO:0198738
+,0.070545316473947,2,239,9.58700467634753,Epiboly, dio2  chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.07807718364014,2,255,8.98546712802768,Ion channel complex , cacna1ba  cacng1b, http://amigo.geneontology.org/amigo/term/GO:0034702
+,0.079484582897252,2,258,8.88098495212038,Eye morphogenesis, fzd8a  gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.080717399382302,2,261,8.7789046653144,Response to hormone , aqp12  dio2, http://amigo.geneontology.org/amigo/term/GO:0009725
+,0.050437217230391,1,10,114.564705882353,Seminiferous tubule, tbpl1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,8,143.205882352941,Thyroid-stimulating hormone-secreting cell differentiation, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,8,143.205882352941,Thyroid stimulating hormone secreting cell, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,8,143.205882352941,Thyroxine 5'-deiodinase activity, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,8,143.205882352941,Thyroxine 5-deiodinase activity, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,5,229.129411764706,Lambert-Eaton myasthenic syndrome, cacna1ba,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,6,190.941176470588,Malignant hyperthermia, cacng1b,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,10,114.564705882353,Calmodulin-dependent protein kinase activity, ppm1e,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,13,88.1266968325792,Dendrite morphogenesis, gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,11,104.149732620321,Developmental process involved in reproduction, fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,10,114.564705882353,Forelimb morphogenesis, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,6,190.941176470588,Immature eye, gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,13,88.1266968325792,Muscle attachment, myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,11,104.149732620321,Oligodendrocyte progenitor proliferation, fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,5,229.129411764706,Optomotor response, gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,7,163.663865546218,Peroxidase activity, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,6,190.941176470588,Phospholipase activity, gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,10,114.564705882353,Presumptive diencephalon, fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,10,114.564705882353,Presumptive ectoderm, fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,9,127.294117647059,Response to wounding, mapk14a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,5,229.129411764706,Somite 27, myo18ab,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,7,163.663865546218,Swim bladder inflation, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,12,95.4705882352941,P00003 Alzheimer disease-amyloid secretase pathway, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,5,229.129411764706,P00022 General transcription by RNA polymerase I, tbpl1,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,9,127.294117647059,P00035 Interferon-gamma signaling pathway, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,5,229.129411764706,P00038 JAK/STAT signaling pathway, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,7,163.663865546218,P00046 Oxidative stress response, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,8,143.205882352941,P00054 Toll receptor signaling pathway, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,11,104.149732620321,P00056 VEGF signaling pathway, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.050437217230391,1,4,286.411764705882,Duane retraction syndrome, chn1,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,10,114.564705882353,Small cell carcinoma, wif1,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,10,114.564705882353,Presynaptic depolarization and calcium channel opening, cacna1ba,https://reactome.org/download/current
+,0.050437217230391,1,13,88.1266968325792,WNT5A-dependent internalization of FZD4, dvl2,https://reactome.org/download/current
+,0.050437217230391,1,6,190.941176470588,CLEC7A (Dectin-1 induces NFAT activation, nfatc3a,https://reactome.org/download/current
+,0.050437217230391,1,10,114.564705882353,Metabolism of amine-derived hormones, dio2,https://reactome.org/download/current
+,0.050437217230391,1,7,163.663865546218,Thyroxine biosynthesis, dio2,https://reactome.org/download/current
+,0.050437217230391,1,10,114.564705882353,Zinc transporters, slc30a6,https://reactome.org/download/current
+,0.050437217230391,1,4,286.411764705882,Zinc efflux and compartmentalization by the SLC30 family, slc30a6,https://reactome.org/download/current
+,0.050437217230391,1,6,190.941176470588,WNT mediated activation of DVL, dvl2,https://reactome.org/download/current
+,0.050437217230391,1,10,114.564705882353,Tandem pore domain potassium channels, kcnk9,https://reactome.org/download/current
+,0.050437217230391,1,9,127.294117647059,Passive transport by Aquaporins, aqp12,https://reactome.org/download/current
+,0.050437217230391,1,8,143.205882352941,Degradation of DVL, dvl2,https://reactome.org/download/current
+,0.050437217230391,1,3,381.882352941176,Insulin processing, slc30a6,https://reactome.org/download/current
+,0.050437217230391,1,4,286.411764705882,Regulation of cholesterol biosynthesis by SREBP (SREBF, srebf1,https://reactome.org/download/current
+,0.050437217230391,1,3,381.882352941176,Dre-miR-99 target gene, fzd8a,http://signafish.org
+,0.050437217230391,1,3,381.882352941176,Dre-miR-100-5p target gene, fzd8a,http://signafish.org
+,0.050437217230391,1,5,229.129411764706,Lipid storage disease, srebf1,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,3,381.882352941176,Dextro-looped transposition of the great arteries 1, dvl2,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,8,143.205882352941,Autosomal recessive cerebellar ataxia, vps13d,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,9,127.294117647059,Episodic ataxia type 6, slc1a4,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,6,190.941176470588,Expressed-in trunk amount ameliorated, gap43,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Expressed-in liver absent abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Expressed-in pharyngeal-arch-3-7 increased-amount abnormal, wif1,https://zfin.org/downloads
+,0.050437217230391,1,11,104.149732620321,Expressed-in neuronal-stem-cell increased-amount abnormal, wif1,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Expressed-in hepatocyte increased-amount abnormal, srebf1,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Expressed-in hypophysis increased-amount abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Expressed-in neuroectoderm spatial-pattern abnormal, hoxc8a,https://zfin.org/downloads
+,0.050437217230391,1,13,88.1266968325792,Expressed-in margin absent abnormal, hoxc8a,https://zfin.org/downloads
+,0.050437217230391,1,9,127.294117647059,Expressed-in neuroectoderm decreased-distribution abnormal, hoxc8a,https://zfin.org/downloads
+,0.050437217230391,1,10,114.564705882353,Skeletal-muscle decreased-amount abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,5,229.129411764706,Skeletal-muscle increased-amount abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,10,114.564705882353,Retina mislocalised abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,10,114.564705882353,Hepatocyte increased-size abnormal, vmp1,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Pharyngeal-pouch malformed abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Pharyngeal-pouch decreased-occurrence abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,13,88.1266968325792,Lens-development-in-camera-type-eye disrupted abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,5,229.129411764706,Cerebellum apoptotic abnormal, ppm1e,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Hepatocyte increased-amount abnormal, vmp1,https://zfin.org/downloads
+,0.050437217230391,1,11,104.149732620321,Pancreas morphology abnormal, wif1,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Telencephalon apoptotic abnormal, ppm1e,https://zfin.org/downloads
+,0.050437217230391,1,9,127.294117647059,Somite-border spatial-pattern abnormal, myo18ab,https://zfin.org/downloads
+,0.050437217230391,1,5,229.129411764706,Slow-muscle-cell spatial-pattern abnormal, myo18ab,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Vertical-myoseptum morphology abnormal, myo18ab,https://zfin.org/downloads
+,0.050437217230391,1,12,95.4705882352941,Swim-bladder decreased-size abnormal, wif1,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Optomotor-response decreased-process-quality abnormal, chn1,https://zfin.org/downloads
+,0.050437217230391,1,9,127.294117647059,Somite-border irregular-spatial-pattern abnormal, myo18ab,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Primary-motor-neuron branched abnormal, pld1a,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Heart-tube decreased-length abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Liver color abnormal, vmp1,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Cleithrum malformed abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Cleithrum decreased-size abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Optic-fissure open abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Locomotion process-quality abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Whole-organism decreased-male-fertility abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Atrioventricular-valve aplastic abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Spinal-cord disorganized abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Retinal-ganglion-cell physical-object-quality abnormal, mapk14a,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Retinal-ganglion-cell occurrence abnormal, mapk14a,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Retinal-ganglion-cell decreased-process-quality abnormal, mapk14a,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Retinal-ganglion-cell decreased-occurrence abnormal, mapk14a,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Whole-organism hypoplastic abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,12,95.4705882352941,Intersegmental-vessel disorganized abnormal, ldb2a,https://zfin.org/downloads
+,0.050437217230391,1,9,127.294117647059,Retina-layer-formation delayed abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Diencephalon increased-amount abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Intersegmental-vessel irregular-spatial-pattern abnormal, pld1a,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Atrioventricular-canal aplastic abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Diencephalon apoptotic abnormal, ppm1e,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Muscle-cell misaligned-with abnormal, myo18ab,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Muscle-cell detached-from abnormal, myo18ab,https://zfin.org/downloads
+,0.050437217230391,1,9,127.294117647059,Heart-contraction decreased-occurrence abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Developmental-pigmentation disrupted abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Retina delayed abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Neural-retina-development delayed abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Trunk-musculature morphology abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Retina increased-distribution abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Hypophysis increased-amount abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,5,229.129411764706,Swim-bladder non-functional abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Whole-organism decreased-female-fertility abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,11,104.149732620321,Liver absent abnormal, dio2,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Swim-bladder-development disrupted abnormal, wif1,https://zfin.org/downloads
+,0.050437217230391,1,12,95.4705882352941,Intersegmental-vessel increased-branchiness abnormal, ldb2a,https://zfin.org/downloads
+,0.050437217230391,1,8,143.205882352941,Retina decreased-thickness abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Cardiac-muscle-tissue-morphogenesis process-quality abnormal, dvl2,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Cardiac-muscle-cell orientation abnormal, dvl2,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Cardiac-muscle-cell process-quality abnormal, dvl2,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Spinal-cord duplicated abnormal, dvl2,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Somite immature abnormal, wif1,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Spinal-cord absent abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Retina decreased-occurrence abnormal, fzd8a,https://zfin.org/downloads
+,0.050437217230391,1,5,229.129411764706,Atrioventricular-valve-formation disrupted abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Atrioventricular-canal morphology abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,6,190.941176470588,Pectoral-fin-morphogenesis disrupted abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,7,163.663865546218,Whole-organism semi-lethal-(sensu-genetics) abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Pectoral-fin-endoskeletal-disc decreased-size abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Atrial-ventricular-junction-remodeling disrupted abnormal, pdlim7,https://zfin.org/downloads
+,0.050437217230391,1,4,286.411764705882,Pancreatic-B-cell decreased-distribution abnormal, srebf1,https://zfin.org/downloads
+,0.050437217230391,1,3,381.882352941176,Lens placode formation , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0001743
+,0.050437217230391,1,7,163.663865546218,Cytoplasmic translational elongation , dph5, http://amigo.geneontology.org/amigo/term/GO:0002182
+,0.050437217230391,1,5,229.129411764706,Lateral migration pathway mesenchyme, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,8,143.205882352941,Regulation of translational elongation , dph5, http://amigo.geneontology.org/amigo/term/GO:0006448
+,0.050437217230391,1,11,104.149732620321,Phosphatidic acid biosynthetic process , pld1a, http://amigo.geneontology.org/amigo/term/GO:0006654
+,0.050437217230391,1,12,95.4705882352941,Skeletal myofibril assembly , myo18ab, http://amigo.geneontology.org/amigo/term/GO:0014866
+,0.050437217230391,1,8,143.205882352941,Axon choice point recognition , gap43, http://amigo.geneontology.org/amigo/term/GO:0016198
+,0.050437217230391,1,5,229.129411764706,Peptidyl-diphthamide metabolic process , dph5, http://amigo.geneontology.org/amigo/term/GO:0017182
+,0.050437217230391,1,5,229.129411764706,Peptidyl-diphthamide biosynthetic process from peptidyl-histidine , dph5, http://amigo.geneontology.org/amigo/term/GO:0017183
+,0.050437217230391,1,6,190.941176470588,Peptidyl-histidine modification , dph5, http://amigo.geneontology.org/amigo/term/GO:0018202
+,0.050437217230391,1,11,104.149732620321,Cranial nerve formation , chn1, http://amigo.geneontology.org/amigo/term/GO:0021603
+,0.050437217230391,1,5,229.129411764706,Preganglionic parasympathetic fiber development , chn1, http://amigo.geneontology.org/amigo/term/GO:0021783
+,0.050437217230391,1,13,88.1266968325792,PDZ domain, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,9,127.294117647059,Protein localization to Golgi apparatus , vps13d, http://amigo.geneontology.org/amigo/term/GO:0034067
+,0.050437217230391,1,12,95.4705882352941,Tetrahydrofolate interconversion , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0035999
+,0.050437217230391,1,7,163.663865546218,P38MAPK cascade , mapk14a, http://amigo.geneontology.org/amigo/term/GO:0038066
+,0.050437217230391,1,4,286.411764705882,Thyroid hormone metabolic process , dio2, http://amigo.geneontology.org/amigo/term/GO:0042403
+,0.050437217230391,1,7,163.663865546218,HEGF, wif1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,6,190.941176470588,Protein retention in Golgi apparatus , vps13d, http://amigo.geneontology.org/amigo/term/GO:0045053
+,0.050437217230391,1,10,114.564705882353,PDZ, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,11,104.149732620321,Phosphatidic acid metabolic process , pld1a, http://amigo.geneontology.org/amigo/term/GO:0046473
+,0.050437217230391,1,3,381.882352941176,Lens placode formation involved in camera-type eye formation , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0046619
+,0.050437217230391,1,5,229.129411764706,Parasympathetic nervous system development , chn1, http://amigo.geneontology.org/amigo/term/GO:0048486
+,0.050437217230391,1,7,163.663865546218,Cell fate commitment involved in pattern specification , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0060581
+,0.050437217230391,1,11,104.149732620321,Ectodermal placode formation , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0060788
+,0.050437217230391,1,6,190.941176470588,Neural plate pattern specification , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0060896
+,0.050437217230391,1,5,229.129411764706,Neural plate regionalization , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0060897
+,0.050437217230391,1,4,286.411764705882,Regulation of neural retina development , dio2, http://amigo.geneontology.org/amigo/term/GO:0061074
+,0.050437217230391,1,5,229.129411764706,Regulation of cytoplasmic translational elongation , dph5, http://amigo.geneontology.org/amigo/term/GO:1900247
+,0.050437217230391,1,4,286.411764705882,Negative regulation of cAMP-dependent protein kinase activity , pkig, http://amigo.geneontology.org/amigo/term/GO:2000480
+,0.050437217230391,1,3,381.882352941176,Filopodium membrane , gap43, http://amigo.geneontology.org/amigo/term/GO:0031527
+,0.050437217230391,1,4,286.411764705882,Formate-tetrahydrofolate ligase activity , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0004329
+,0.050437217230391,1,7,163.663865546218,Methenyltetrahydrofolate cyclohydrolase activity , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0004477
+,0.050437217230391,1,8,143.205882352941,Methylenetetrahydrofolate dehydrogenase [NAD(P)+] activity , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0004486
+,0.050437217230391,1,8,143.205882352941,Methylenetetrahydrofolate dehydrogenase (NADP+) activity , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0004488
+,0.050437217230391,1,5,229.129411764706,Phospholipase D activity , pld1a, http://amigo.geneontology.org/amigo/term/GO:0004630
+,0.050437217230391,1,5,229.129411764706,CAMP-dependent protein kinase inhibitor activity , pkig, http://amigo.geneontology.org/amigo/term/GO:0004862
+,0.050437217230391,1,5,229.129411764706,Calcitonin receptor activity , calcr, http://amigo.geneontology.org/amigo/term/GO:0004948
+,0.050437217230391,1,8,143.205882352941,NMDA glutamate receptor activity , grin3bb, http://amigo.geneontology.org/amigo/term/GO:0004972
+,0.050437217230391,1,12,95.4705882352941,Platelet-derived growth factor receptor binding , pdgfc, http://amigo.geneontology.org/amigo/term/GO:0005161
+,0.050437217230391,1,11,104.149732620321,CAMP-dependent protein kinase regulator activity , pkig, http://amigo.geneontology.org/amigo/term/GO:0008603
+,0.050437217230391,1,5,229.129411764706,Galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity , b3gat1a, http://amigo.geneontology.org/amigo/term/GO:0015018
+,0.050437217230391,1,11,104.149732620321,Cyclohydrolase activity , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0019238
+,0.050437217230391,1,6,190.941176470588,LIM domain binding , ldb2a, http://amigo.geneontology.org/amigo/term/GO:0030274
+,0.050437217230391,1,5,229.129411764706,Calcitonin family receptor activity , calcr, http://amigo.geneontology.org/amigo/term/GO:0097642
+,0.050437217230391,1,12,95.4705882352941,Aortic aneurysm, klf15,https://www.alliancegenome.org/downloads
+,0.050437217230391,1,10,114.564705882353,AMP-activated protein kinase activity, ppm1e,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,6,190.941176470588,Chromosome breakage, dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,11,104.149732620321,Cranial nerve III, chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,12,95.4705882352941,Enterocyte differentiation, hoxc8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,10,114.564705882353,Lipid catabolic process, srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050437217230391,1,9,127.294117647059,Oculomotor nerve formation, chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050642145834504,1,14,81.8319327731092,Anterior axial hypoblast, calcr,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050642145834504,1,14,81.8319327731092,Somite 22, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050642145834504,1,14,81.8319327731092,Disassembly of the destruction complex and recruitment of AXIN to the membrane, dvl2,https://reactome.org/download/current
+,0.050642145834504,1,14,81.8319327731092,Regulation of FZD by ubiquitination, fzd8a,https://reactome.org/download/current
+,0.050642145834504,1,14,81.8319327731092,Ceratobranchial-cartilage malformed abnormal, fzd8a,https://zfin.org/downloads
+,0.050642145834504,1,14,81.8319327731092,Skeletal-muscle-tissue-development disrupted abnormal, pdlim7,https://zfin.org/downloads
+,0.050642145834504,1,14,81.8319327731092,Dorsal axial hypoblast, calcr,https://amp.pharm.mssm.edu/FishEnrichr
+,0.050642145834504,1,14,81.8319327731092,Platelet-derived growth factor receptor signaling pathway , pdgfc, http://amigo.geneontology.org/amigo/term/GO:0048008
+,0.050642145834504,1,14,81.8319327731092,Chondroitin sulfate proteoglycan biosynthetic process , b3gat1a, http://amigo.geneontology.org/amigo/term/GO:0050650
+,0.050642145834504,1,14,81.8319327731092,Regulation of cAMP-dependent protein kinase activity , pkig, http://amigo.geneontology.org/amigo/term/GO:2000479
+,0.053216437632846,1,15,76.3764705882353,Taxis, chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.053216437632846,1,15,76.3764705882353,Thermotaxis, chn1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.053216437632846,1,15,76.3764705882353,P04398 p53 pathway feedback loops 2, mapk14a,ftp://ftp.pantherdb.org/pathway/current_release
+,0.053216437632846,1,15,76.3764705882353,Signaling by Hippo, dvl2,https://reactome.org/download/current
+,0.053216437632846,1,15,76.3764705882353,Phase 4-resting membrane potential, kcnk9,https://reactome.org/download/current
+,0.053216437632846,1,15,76.3764705882353,Vasculogenesis disrupted abnormal, pld1a,https://zfin.org/downloads
+,0.053216437632846,1,15,76.3764705882353,Heart increased-amount abnormal, dio2,https://zfin.org/downloads
+,0.053216437632846,1,15,76.3764705882353,Ectodermal placode morphogenesis , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0071697
+,0.053216437632846,1,15,76.3764705882353,Protein serine/threonine kinase inhibitor activity , pkig, http://amigo.geneontology.org/amigo/term/GO:0030291
+,0.056021728990013,1,16,71.6029411764706,Activation of MAPKK activity, dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.056021728990013,1,16,71.6029411764706,Apical ectodermal ridge, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.056021728990013,1,16,71.6029411764706,Macrophage migration, mapk14a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.056021728990013,1,16,71.6029411764706,Metal ion SLC transporters, slc30a6,https://reactome.org/download/current
+,0.056021728990013,1,16,71.6029411764706,Neural tube defect, mthfd1l,https://www.alliancegenome.org/downloads
+,0.056021728990013,1,16,71.6029411764706,Expressed-in pharyngeal-arch-3-7 decreased-amount abnormal, wif1,https://zfin.org/downloads
+,0.056021728990013,1,16,71.6029411764706,Zinc finger LIM-type, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.056021728990013,1,16,71.6029411764706,LIM, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.056021728990013,1,16,71.6029411764706,Muscle tissue morphogenesis , myo18ab, http://amigo.geneontology.org/amigo/term/GO:0060415
+,0.0586074288021,1,17,67.3910034602076,Cell migration in diencephalon, fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.0586074288021,1,17,67.3910034602076,MAP kinase activity, dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.0586074288021,1,17,67.3910034602076,P00055 Transcription regulation by bZIP transcription factor, tbpl1,ftp://ftp.pantherdb.org/pathway/current_release
+,0.0586074288021,1,17,67.3910034602076,L1CAM interactions, gap43,https://reactome.org/download/current
+,0.0586074288021,1,17,67.3910034602076,Muscle-cell disorganized abnormal, myo18ab,https://zfin.org/downloads
+,0.0586074288021,1,17,67.3910034602076,Forebrain neuron differentiation , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0021879
+,0.0586074288021,1,17,67.3910034602076,Muscle organ morphogenesis , myo18ab, http://amigo.geneontology.org/amigo/term/GO:0048644
+,0.0586074288021,1,17,67.3910034602076,Pancreatic ductal adenocarcinoma, pld1a,https://www.alliancegenome.org/downloads
+,0.0586074288021,1,17,67.3910034602076,Wnt-activated receptor activity , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0042813
+,0.0586074288021,1,17,67.3910034602076,Ammonia homeostasis, slc1a4,https://amp.pharm.mssm.edu/FishEnrichr
+,0.0586074288021,1,17,67.3910034602076,Hereditary ataxia, cacna1ba,https://www.alliancegenome.org/downloads
+,0.0586074288021,1,17,67.3910034602076,OFF-bipolar cell, slc1a4,https://amp.pharm.mssm.edu/FishEnrichr
+,0.061365295212164,1,18,63.6470588235294,Spinal-cord apoptotic abnormal, ppm1e,https://zfin.org/downloads
+,0.061365295212164,1,18,63.6470588235294,Liver fatty abnormal, vmp1,https://zfin.org/downloads
+,0.061365295212164,1,18,63.6470588235294,Presumptive midbrain, fzd8a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.061365295212164,1,18,63.6470588235294,Forebrain generation of neurons , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0021872
+,0.061365295212164,1,18,63.6470588235294,Vesicle transport along actin filament , myo16, http://amigo.geneontology.org/amigo/term/GO:0030050
+,0.061365295212164,1,18,63.6470588235294,Maintenance of protein location in cell , vps13d, http://amigo.geneontology.org/amigo/term/GO:0032507
+,0.061365295212164,1,18,63.6470588235294,Chondroitin sulfate proteoglycan metabolic process , b3gat1a, http://amigo.geneontology.org/amigo/term/GO:0050654
+,0.061365295212164,1,18,63.6470588235294,Actin filament-based transport , myo16, http://amigo.geneontology.org/amigo/term/GO:0099515
+,0.061365295212164,1,18,63.6470588235294,Growth cone , gap43, http://amigo.geneontology.org/amigo/term/GO:0030426
+,0.061365295212164,1,18,63.6470588235294,Protein autophosphorylation, ppm1e,https://amp.pharm.mssm.edu/FishEnrichr
+,0.063957870185373,1,19,60.297213622291,Migraine, cacna1ba,https://www.alliancegenome.org/downloads
+,0.063957870185373,1,19,60.297213622291,Presumptive dorsal mesoderm, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.063957870185373,1,19,60.297213622291,Presumptive mesoderm, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.063957870185373,1,19,60.297213622291,Presumptive paraxial mesoderm, pdlim7,https://amp.pharm.mssm.edu/FishEnrichr
+,0.063957870185373,1,19,60.297213622291,Effects of PIP2 hydrolysis, prkcha,https://reactome.org/download/current
+,0.063957870185373,1,19,60.297213622291,Erythrocyte-differentiation disrupted abnormal, pld1a,https://zfin.org/downloads
+,0.063957870185373,1,19,60.297213622291,Hormone biosynthetic process , dio2, http://amigo.geneontology.org/amigo/term/GO:0042446
+,0.063957870185373,1,19,60.297213622291,Calcium-dependent protein kinase C activity , prkcha, http://amigo.geneontology.org/amigo/term/GO:0004698
+,0.063957870185373,1,19,60.297213622291,Liver, srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.063957870185373,1,19,60.297213622291,Outflow tract morphogenesis, dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.066431882489934,1,20,57.2823529411765,Axial blood vessel, calcr,https://amp.pharm.mssm.edu/FishEnrichr
+,0.066431882489934,1,20,57.2823529411765,MAP kinase kinase activity, dvl2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.066431882489934,1,20,57.2823529411765,Neuron projection morphogenesis, gap43,https://amp.pharm.mssm.edu/FishEnrichr
+,0.066431882489934,1,20,57.2823529411765,Brain decreased-occurrence abnormal, dvl2,https://zfin.org/downloads
+,0.066431882489934,1,20,57.2823529411765,Pectoral-fin absent abnormal, pdlim7,https://zfin.org/downloads
+,0.066431882489934,1,20,57.2823529411765,Pectoral-fin-development disrupted abnormal, pdlim7,https://zfin.org/downloads
+,0.066431882489934,1,20,57.2823529411765,Cranial nerve morphogenesis , chn1, http://amigo.geneontology.org/amigo/term/GO:0021602
+,0.066431882489934,1,20,57.2823529411765,Maintenance of protein location , vps13d, http://amigo.geneontology.org/amigo/term/GO:0045185
+,0.066431882489934,1,20,57.2823529411765,Tetrahydrofolate metabolic process , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0046653
+,0.066431882489934,1,20,57.2823529411765,Negative regulation of protein serine/threonine kinase activity , pkig, http://amigo.geneontology.org/amigo/term/GO:0071901
+,0.066431882489934,1,20,57.2823529411765,Microfilament motor activity , myo16, http://amigo.geneontology.org/amigo/term/GO:0000146
+,0.066431882489934,1,20,57.2823529411765,One carbon pool by folate, mthfd1l,http://www.genome.jp/kegg-bin/show_pathway?dre00670 
+,0.066431882489934,1,20,57.2823529411765,Female sex determination, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.069004927604301,1,21,54.5546218487395,Glandular epithelial cell development, ldb2a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.069004927604301,1,21,54.5546218487395,Neutrophil migration, mapk14a,https://amp.pharm.mssm.edu/FishEnrichr
+,0.069004927604301,1,21,54.5546218487395,Expressed-in skeletal-muscle increased-amount abnormal, dio2,https://zfin.org/downloads
+,0.069004927604301,1,21,54.5546218487395,Slow-muscle-cell disorganized abnormal, myo18ab,https://zfin.org/downloads
+,0.069004927604301,1,21,54.5546218487395,Cortical actin cytoskeleton organization , si:dkey-178k16.1, http://amigo.geneontology.org/amigo/term/GO:0030866
+,0.069004927604301,1,21,54.5546218487395,Axon regeneration , gap43, http://amigo.geneontology.org/amigo/term/GO:0031103
+,0.069004927604301,1,21,54.5546218487395,Embryonic camera-type eye formation , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0060900
+,0.069004927604301,1,21,54.5546218487395,Ectodermal placode development , fzd8a, http://amigo.geneontology.org/amigo/term/GO:0071696
+,0.071803507845118,1,22,52.0748663101604,Fast-muscle-cell disorganized abnormal, myo18ab,https://zfin.org/downloads
+,0.071803507845118,1,22,52.0748663101604,Protein kinase inhibitor activity , pkig, http://amigo.geneontology.org/amigo/term/GO:0004860
+,0.071803507845118,1,22,52.0748663101604,Kinase inhibitor activity , pkig, http://amigo.geneontology.org/amigo/term/GO:0019210
+,0.071803507845118,1,22,52.0748663101604,Lysosome localization, srebf1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.07444814167621,1,23,49.8107416879795,Amino acid transport across the plasma membrane, slc1a4,https://reactome.org/download/current
+,0.07444814167621,1,23,49.8107416879795,Embryonic-viscerocranium-morphogenesis decreased-process-quality abnormal, fzd8a,https://zfin.org/downloads
+,0.07444814167621,1,23,49.8107416879795,Disease of metabolism, srebf1,https://www.alliancegenome.org/downloads
+,0.07444814167621,1,23,49.8107416879795,Neuron projection regeneration , gap43, http://amigo.geneontology.org/amigo/term/GO:0031102
+,0.07444814167621,1,23,49.8107416879795,Response to axon injury , gap43, http://amigo.geneontology.org/amigo/term/GO:0048678
+,0.07444814167621,1,23,49.8107416879795,Phosphatidylserine binding , gap43, http://amigo.geneontology.org/amigo/term/GO:0001786
+,0.077168813390909,1,24,47.7352941176471,Pronephric duct morphogenesis, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.077168813390909,1,24,47.7352941176471,Swim bladder morphogenesis, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.077168813390909,1,24,47.7352941176471,Phase 2-plateau phase, cacng1b,https://reactome.org/download/current
+,0.077168813390909,1,24,47.7352941176471,Dre-miR-365 target gene, fzd8a,http://signafish.org
+,0.077168813390909,1,24,47.7352941176471,NADH dehydrogenase (ubiquinone) activity , ndufaf2, http://amigo.geneontology.org/amigo/term/GO:0008137
+,0.077168813390909,1,24,47.7352941176471,NADH dehydrogenase (quinone) activity , ndufaf2, http://amigo.geneontology.org/amigo/term/GO:0050136
+,0.077168813390909,1,24,47.7352941176471,Male sex determination, dio2,https://amp.pharm.mssm.edu/FishEnrichr
+,0.079484582897252,1,25,45.8258823529412,WP1343 MAPK Cascade, mapk14a,http://www.wikipathways.org/instance/WP1343_r95770
+,0.079484582897252,1,25,45.8258823529412,Brain increased-occurrence abnormal, dvl2,https://zfin.org/downloads
+,0.079484582897252,1,25,45.8258823529412,Folic acid-containing compound metabolic process , mthfd1l, http://amigo.geneontology.org/amigo/term/GO:0006760
+,0.079484582897252,1,25,45.8258823529412,Phenol-containing compound metabolic process , dio2, http://amigo.geneontology.org/amigo/term/GO:0018958
+,0.079484582897252,1,25,45.8258823529412,EGF-like domain, wif1,https://amp.pharm.mssm.edu/FishEnrichr
+,0.079484582897252,1,25,45.8258823529412,Site of polarized growth , gap43, http://amigo.geneontology.org/amigo/term/GO:0030427
+,0.079484582897252,1,25,45.8258823529412,NAD(P)H dehydrogenase (quinone) activity , ndufaf2, http://amigo.geneontology.org/amigo/term/GO:0003955
+,0.079484582897252,1,25,45.8258823529412,MAP kinase activity , mapk14a, http://amigo.geneontology.org/amigo/term/GO:0004707
+,0.08193540750589,1,26,44.0633484162896,Cell cycle process, mapk14a,https://amp.pharm.mssm.edu/FishEnrichr
