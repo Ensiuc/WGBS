@@ -53,7 +53,7 @@ cd $bamP
 #ln -s ${seqP}/${name}_R2_val_2_mg.fq.gz ./input${name}_R2_001.fq.gz
 
 #bismark alignment
-#bismark --bowtie2 -p 20 --output_dir $bamP --rg_tag --rg_id ${name} --rg_sample ${name} --prefix ${name} --unmapped --temp_dir ${tmpd} --phred33-quals --fastq --genome_folder $refP -1 input${name}_R1_001.fq.gz -2 input${name}_R2_001.fq.gz > $bamP/${name}.bismark.out
+bismark --bowtie2 -p 20 --output_dir $bamP --rg_tag --rg_id ${name} --rg_sample ${name} --prefix ${name} --unmapped --temp_dir ${tmpd} --phred33-quals --fastq --genome_folder $refP -1 input${name}_R1_001.fq.gz -2 input${name}_R2_001.fq.gz > $bamP/${name}.bismark.out
 
 # bismark deduplicate
 deduplicate_bismark --bam --paired --output_dir ./ ${name}.input${name}_R1_001_bismark_bt2_pe.bam
