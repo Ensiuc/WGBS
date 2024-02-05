@@ -1,0 +1,1490 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/agogo.css" type="text/css" />
+		<link rel="stylesheet" href="css/report.css" type="text/css" />
+	<title>Qualimap report: Multi-sample BAM QC</title>
+
+	</head>
+<body>
+	<div class="header-wrapper">
+		<div class="header">
+		<p class="logo"><a href="http://qualimap.bioinfo.cipf.es/">
+		<img class="logo" src="css/qualimap_logo_small.png" alt="Logo"/>
+		</a></p>
+<div class="headertitle"><a href="">Qualimap Report: Multi-sample BAM QC</a></div>
+	</div>
+</div>
+
+<div class="content-wrapper">
+<div class="content">
+<div class="document">
+<div class="documentwrapper">
+<div class="bodywrapper">
+<div class="body">
+<div class=section>
+<h2>Input data and parameters<a class="headerlink" name="input" title="Permalink to this headline">&nbsp;</a></h2>
+<div class=summary>
+
+
+<div class=table-summary>
+<h3>Samples</h3>
+<table class="summary hovertable">
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GC03_2_B3G1_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GC03_2_B3G1_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OS06_1_B4G0_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OS06_1_B4G0_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RX38_2_B5G0_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RX38_2_B5G0_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GS17_2_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GS17_2_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YK67_2_B3G2_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YK67_2_B3G2_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RW91_2_B1G0_2009</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RW91_2_B1G0_2009</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YD41_1_B5G2_2017</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YD41_1_B5G2_2017</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OB07_1_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OB07_1_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>ON56_2_2_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/ON56_2_2_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OD35_2_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OD35_2_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YP34_1_B4G1_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YP34_1_B4G1_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YI32_2_B2G3_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YI32_2_B2G3_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OH11_1_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OH11_1_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YB41_1_B3G2_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YB41_1_B3G2_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YI03_1_B5G2_2017</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YI03_1_B5G2_2017</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OF01_1_B5G0_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OF01_1_B5G0_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OK00_1_B5G0_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OK00_1_B5G0_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YH10_2_B5G2_2017</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YH10_2_B5G2_2017</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GY02_1_B1G1_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GY02_1_B1G1_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YC94_1_B5G3_2018</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YC94_1_B5G3_2018</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OA22_2_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OA22_2_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OK13_2_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OK13_2_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OV01_2_B4G1_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OV01_2_B4G1_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OK15_2_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OK15_2_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YF39_2_B1G1_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YF39_2_B1G1_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OI00_1_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OI00_1_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OB40_1_B3G3_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OB40_1_B3G3_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RX28_1_B5G1_2016</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RX28_1_B5G1_2016</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OF00_1_B4G1_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OF00_1_B4G1_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YP02_1_B5G1_2016</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YP02_1_B5G1_2016</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YS03_1_B5G3_2018</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YS03_1_B5G3_2018</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OU20_1_B2G1_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OU20_1_B2G1_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YS63_1_B5G3_2018</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YS63_1_B5G3_2018</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RB34_2_B3G0_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RB34_2_B3G0_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GG45_1_B4G0_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GG45_1_B4G0_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YY01_1_B2G1_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YY01_1_B2G1_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OR05_1_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OR05_1_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RX81_2_B5G0_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RX81_2_B5G0_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RA09_1_B2G0_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RA09_1_B2G0_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RX43_1_B4G1_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RX43_1_B4G1_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RA49_1_B2G0_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RA49_1_B2G0_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RA12_2_B2G0_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RA12_2_B2G0_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OH46_1_B3G0_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OH46_1_B3G0_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YD08_2_B2G3_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YD08_2_B2G3_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YY17_2_B2G1_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YY17_2_B2G1_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YT54_1_B1G1_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YT54_1_B1G1_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OC00_1_B5G3_2018</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OC00_1_B5G3_2018</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OP19_1_B2G1_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OP19_1_B2G1_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OZ04_1_B2G2_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OZ04_1_B2G2_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YB82_1_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YB82_1_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YN39_1_B1G0_2009</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YN39_1_B1G0_2009</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OR29_1_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OR29_1_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OD00_1_B1G3_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OD00_1_B1G3_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>ON56_2_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/ON56_2_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GB64_2_B2G1_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GB64_2_B2G1_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YF21_1_B5G1_2016</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YF21_1_B5G1_2016</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YV33_2_B2G2_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YV33_2_B2G2_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RW79_2_B1G0_2009</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RW79_2_B1G0_2009</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YT25_2_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YT25_2_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RB66_2_B4G0_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RB66_2_B4G0_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YC36_2_B2G3_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YC36_2_B2G3_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OB21_1_B3G3_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OB21_1_B3G3_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RX15_2_B5G0_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RX15_2_B5G0_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YC01_1_B2G3_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YC01_1_B2G3_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RA17_1_B2G0_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RA17_1_B2G0_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RW43_1_B1G0_2009</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RW43_1_B1G0_2009</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RA52_2_B2G0_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RA52_2_B2G0_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YP50_1_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YP50_1_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OD08_2_B1G3_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OD08_2_B1G3_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YK54_2_B5G1_2016</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YK54_2_B5G1_2016</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OD23_1_B5G2_2017</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OD23_1_B5G2_2017</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OP04_1_B2G2_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OP04_1_B2G2_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YP51_2_B5G1_2016</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YP51_2_B5G1_2016</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YD12_1_B2G3_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YD12_1_B2G3_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YI22_1_B2G3_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YI22_1_B2G3_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OP49_1_B1G1_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OP49_1_B1G1_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OH01_1_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OH01_1_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YR06_1_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YR06_1_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OU11_2_B2G2_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OU11_2_B2G2_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RB55_2_B4G0_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RB55_2_B4G0_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YF03_1_B3G1_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YF03_1_B3G1_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YA15_2_B5G3_2018</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YA15_2_B5G3_2018</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OF14_2_B1G3_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OF14_2_B1G3_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OS41_2_B2G1_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OS41_2_B2G1_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OP21_1_B4G0_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OP21_1_B4G0_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YR66_2_B5G2_2017</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YR66_2_B5G2_2017</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YL51_2_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YL51_2_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OS03_1_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OS03_1_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YF42_2_B1G1_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YF42_2_B1G1_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OD66_2_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OD66_2_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RB38_2_B4G0_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RB38_2_B4G0_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YT33_2_B4G3_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YT33_2_B4G3_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GF36_2_B1G2_2011</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GF36_2_B1G2_2011</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>GY19_2_B2G2_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/GY19_2_B2G2_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YR58_2_B5G1_2016</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YR58_2_B5G1_2016</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RA47_2_B2G0_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RA47_2_B2G0_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YC06_1_B1G3_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YC06_1_B1G3_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YF50_2_B5G2_2017</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YF50_2_B5G2_2017</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YT07_2_B4G1_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YT07_2_B4G1_2013</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OC14_2_B1G1_2010</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OC14_2_B1G1_2010</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OF15_2_B1G3_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OF15_2_B1G3_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>YC32_2_B1G3_2012</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/YC32_2_B1G3_2012</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OG27_1_B5G0_2015</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OG27_1_B5G0_2015</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>RX25_1_B4G2_2014</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/RX25_1_B4G2_2014</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>OB32_2_B4G1_2013</td>
+<td class=column2>/group/millermrgrp4/ehabibi/Methylation/04-Qualimap/OB32_2_B4G1_2013</td>
+</tr>
+</table>
+</div>
+
+</div>
+</div> <!-- summary section -->
+
+<div class=section>
+<h2>Summary<a class="headerlink" name="summary" title="Permalink to this headline">&nbsp;</a></h2>
+<div class=summary>
+
+
+<div class=table-summary>
+<h3>Globals</h3>
+<table class="summary hovertable">
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td class=column1>Number of samples</td>
+<td class=column2>105</td>
+</tr>
+</table>
+</div>
+
+
+<div class=table-summary>
+<h3></h3>
+<table class="summary hovertable">
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td><b>Sample name</b></td>
+<td><b>Coverage mean</b></td>
+<td><b>Coverage std</b></td>
+<td><b>GC percentage</b></td>
+<td><b>Mapping quality mean</b></td>
+<td><b>Insert size median</b></td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GB64_2_B2G1_2011</td>
+<td>8.06</td>
+<td>8.71</td>
+<td>23.74</td>
+<td>34.59</td>
+<td>186.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GC03_2_B3G1_2012</td>
+<td>7.79</td>
+<td>13.36</td>
+<td>23.84</td>
+<td>34.54</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GF36_2_B1G2_2011</td>
+<td>8.18</td>
+<td>10.91</td>
+<td>23.46</td>
+<td>34.84</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GG45_1_B4G0_2012</td>
+<td>6.45</td>
+<td>8.25</td>
+<td>23.61</td>
+<td>34.47</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GS17_2_B1G2_2011</td>
+<td>8.48</td>
+<td>9.71</td>
+<td>23.22</td>
+<td>34.93</td>
+<td>189.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GY02_1_B1G1_2010</td>
+<td>4.85</td>
+<td>8.35</td>
+<td>23.55</td>
+<td>34.41</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>GY19_2_B2G2_2012</td>
+<td>7.62</td>
+<td>9.09</td>
+<td>23.87</td>
+<td>34.48</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OA22_2_B4G2_2014</td>
+<td>7.32</td>
+<td>11.56</td>
+<td>23.39</td>
+<td>34.68</td>
+<td>187.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OB07_1_B4G2_2014</td>
+<td>6.59</td>
+<td>7.98</td>
+<td>23.73</td>
+<td>34.47</td>
+<td>176.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OB21_1_B3G3_2014</td>
+<td>6.87</td>
+<td>8.57</td>
+<td>23.65</td>
+<td>34.56</td>
+<td>175.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OB32_2_B4G1_2013</td>
+<td>7.46</td>
+<td>9.21</td>
+<td>23.67</td>
+<td>34.47</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OB40_1_B3G3_2014</td>
+<td>7.43</td>
+<td>9.76</td>
+<td>23.79</td>
+<td>34.48</td>
+<td>181.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OC00_1_B5G3_2018</td>
+<td>7.17</td>
+<td>8.75</td>
+<td>23.54</td>
+<td>34.43</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OC14_2_B1G1_2010</td>
+<td>8.08</td>
+<td>8.47</td>
+<td>23.56</td>
+<td>34.83</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OD00_1_B1G3_2012</td>
+<td>6.43</td>
+<td>8.61</td>
+<td>23.82</td>
+<td>34.57</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OD08_2_B1G3_2012</td>
+<td>8.3</td>
+<td>9.4</td>
+<td>23.6</td>
+<td>34.77</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OD23_1_B5G2_2017</td>
+<td>7.84</td>
+<td>9.57</td>
+<td>23.52</td>
+<td>34.58</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OD35_2_B4G2_2014</td>
+<td>6.87</td>
+<td>8.94</td>
+<td>23.78</td>
+<td>34.71</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OD66_2_B4G2_2014</td>
+<td>7.6</td>
+<td>7.13</td>
+<td>23.67</td>
+<td>34.81</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OF00_1_B4G1_2013</td>
+<td>8.02</td>
+<td>12.18</td>
+<td>23.6</td>
+<td>34.54</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OF01_1_B5G0_2015</td>
+<td>6.59</td>
+<td>8.45</td>
+<td>23.76</td>
+<td>34.76</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OF14_2_B1G3_2012</td>
+<td>5.14</td>
+<td>8.63</td>
+<td>23.36</td>
+<td>33.65</td>
+<td>167.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OF15_2_B1G3_2012</td>
+<td>6.82</td>
+<td>9.74</td>
+<td>23.26</td>
+<td>33.41</td>
+<td>152.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OG27_1_B5G0_2015</td>
+<td>7.92</td>
+<td>11.38</td>
+<td>23.62</td>
+<td>34.61</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OH01_1_B4G3_2015</td>
+<td>8.33</td>
+<td>10.95</td>
+<td>23.52</td>
+<td>34.84</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OH11_1_B4G3_2015</td>
+<td>8.04</td>
+<td>10.43</td>
+<td>23.86</td>
+<td>34.64</td>
+<td>194.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OH46_1_B3G0_2011</td>
+<td>7.18</td>
+<td>9.58</td>
+<td>23.33</td>
+<td>34.77</td>
+<td>185.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OI00_1_B1G2_2011</td>
+<td>8.04</td>
+<td>9.24</td>
+<td>23.62</td>
+<td>34.64</td>
+<td>185.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OK00_1_B5G0_2015</td>
+<td>8.44</td>
+<td>9.72</td>
+<td>23.5</td>
+<td>34.93</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OK13_2_B4G3_2015</td>
+<td>8.18</td>
+<td>10.49</td>
+<td>23.65</td>
+<td>34.7</td>
+<td>188.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OK15_2_B4G3_2015</td>
+<td>8.15</td>
+<td>9.48</td>
+<td>23.57</td>
+<td>34.66</td>
+<td>188.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>ON56_2_2_B1G2_2011</td>
+<td>6.74</td>
+<td>11.19</td>
+<td>23.37</td>
+<td>34.53</td>
+<td>167.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>ON56_2_B1G2_2011</td>
+<td>8.07</td>
+<td>11.11</td>
+<td>23.48</td>
+<td>34.76</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OP04_1_B2G2_2012</td>
+<td>6.12</td>
+<td>10.32</td>
+<td>23.8</td>
+<td>34.53</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OP19_1_B2G1_2011</td>
+<td>7.99</td>
+<td>9.4</td>
+<td>23.25</td>
+<td>33.97</td>
+<td>162.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OP21_1_B4G0_2012</td>
+<td>7.5</td>
+<td>10.61</td>
+<td>23.64</td>
+<td>34.56</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OP49_1_B1G1_2010</td>
+<td>7.89</td>
+<td>9.76</td>
+<td>23.52</td>
+<td>34.64</td>
+<td>181.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OR05_1_B4G3_2015</td>
+<td>7.17</td>
+<td>9.89</td>
+<td>23.72</td>
+<td>34.68</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OR29_1_B4G3_2015</td>
+<td>7.79</td>
+<td>7.39</td>
+<td>23.54</td>
+<td>34.74</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OS03_1_B1G2_2011</td>
+<td>7.85</td>
+<td>9.57</td>
+<td>23.59</td>
+<td>34.77</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OS06_1_B4G0_2012</td>
+<td>6.68</td>
+<td>13.31</td>
+<td>23.75</td>
+<td>34.4</td>
+<td>173.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OS41_2_B2G1_2011</td>
+<td>8.23</td>
+<td>8.85</td>
+<td>23.45</td>
+<td>34.62</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OU11_2_B2G2_2012</td>
+<td>7.36</td>
+<td>7.75</td>
+<td>23.72</td>
+<td>34.65</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OU20_1_B2G1_2011</td>
+<td>7.58</td>
+<td>12.3</td>
+<td>23.29</td>
+<td>34.4</td>
+<td>155.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OV01_2_B4G1_2013</td>
+<td>7.89</td>
+<td>11.31</td>
+<td>23.69</td>
+<td>34.71</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>OZ04_1_B2G2_2012</td>
+<td>7.64</td>
+<td>8.31</td>
+<td>23.58</td>
+<td>34.86</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RA09_1_B2G0_2010</td>
+<td>7.81</td>
+<td>8.72</td>
+<td>23.66</td>
+<td>34.5</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RA12_2_B2G0_2010</td>
+<td>8.84</td>
+<td>11.46</td>
+<td>23.76</td>
+<td>34.67</td>
+<td>185.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RA17_1_B2G0_2010</td>
+<td>8.01</td>
+<td>9.03</td>
+<td>23.48</td>
+<td>34.89</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RA47_2_B2G0_2010</td>
+<td>8.0</td>
+<td>7.98</td>
+<td>23.71</td>
+<td>34.67</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RA49_1_B2G0_2010</td>
+<td>8.28</td>
+<td>8.69</td>
+<td>23.56</td>
+<td>34.7</td>
+<td>188.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RA52_2_B2G0_2010</td>
+<td>8.24</td>
+<td>9.24</td>
+<td>23.66</td>
+<td>34.7</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RB34_2_B3G0_2011</td>
+<td>8.15</td>
+<td>9.39</td>
+<td>23.69</td>
+<td>34.86</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RB38_2_B4G0_2012</td>
+<td>7.99</td>
+<td>10.88</td>
+<td>23.74</td>
+<td>34.64</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RB55_2_B4G0_2012</td>
+<td>8.36</td>
+<td>9.65</td>
+<td>23.36</td>
+<td>35.08</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RB66_2_B4G0_2012</td>
+<td>7.73</td>
+<td>9.55</td>
+<td>23.7</td>
+<td>34.6</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RW43_1_B1G0_2009</td>
+<td>7.95</td>
+<td>10.88</td>
+<td>23.89</td>
+<td>34.66</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RW79_2_B1G0_2009</td>
+<td>8.21</td>
+<td>9.75</td>
+<td>23.58</td>
+<td>34.65</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RW91_2_B1G0_2009</td>
+<td>7.19</td>
+<td>9.69</td>
+<td>23.55</td>
+<td>34.54</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RX15_2_B5G0_2015</td>
+<td>8.09</td>
+<td>11.26</td>
+<td>23.69</td>
+<td>34.58</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RX25_1_B4G2_2014</td>
+<td>7.39</td>
+<td>9.96</td>
+<td>23.64</td>
+<td>34.76</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RX28_1_B5G1_2016</td>
+<td>7.8</td>
+<td>7.21</td>
+<td>23.4</td>
+<td>34.78</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RX38_2_B5G0_2015</td>
+<td>7.79</td>
+<td>10.77</td>
+<td>23.44</td>
+<td>34.65</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RX43_1_B4G1_2013</td>
+<td>8.09</td>
+<td>11.84</td>
+<td>23.44</td>
+<td>34.6</td>
+<td>188.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>RX81_2_B5G0_2015</td>
+<td>8.5</td>
+<td>14.02</td>
+<td>23.51</td>
+<td>34.72</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YA15_2_B5G3_2018</td>
+<td>8.04</td>
+<td>11.41</td>
+<td>23.57</td>
+<td>34.38</td>
+<td>185.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YB41_1_B3G2_2013</td>
+<td>5.23</td>
+<td>7.32</td>
+<td>23.28</td>
+<td>33.95</td>
+<td>158.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YB82_1_B4G2_2014</td>
+<td>8.23</td>
+<td>9.33</td>
+<td>23.62</td>
+<td>34.87</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YC01_1_B2G3_2013</td>
+<td>8.1</td>
+<td>9.97</td>
+<td>23.71</td>
+<td>34.68</td>
+<td>188.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YC06_1_B1G3_2012</td>
+<td>8.18</td>
+<td>9.75</td>
+<td>23.71</td>
+<td>34.75</td>
+<td>189.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YC32_2_B1G3_2012</td>
+<td>6.35</td>
+<td>9.09</td>
+<td>23.77</td>
+<td>34.78</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YC36_2_B2G3_2013</td>
+<td>7.24</td>
+<td>9.01</td>
+<td>23.44</td>
+<td>34.71</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YC94_1_B5G3_2018</td>
+<td>7.91</td>
+<td>9.07</td>
+<td>23.4</td>
+<td>33.49</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YD08_2_B2G3_2013</td>
+<td>8.16</td>
+<td>10.36</td>
+<td>23.67</td>
+<td>34.64</td>
+<td>187.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YD12_1_B2G3_2013</td>
+<td>7.08</td>
+<td>10.07</td>
+<td>23.53</td>
+<td>34.78</td>
+<td>176.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YD41_1_B5G2_2017</td>
+<td>6.66</td>
+<td>9.62</td>
+<td>23.64</td>
+<td>34.69</td>
+<td>181.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YF03_1_B3G1_2012</td>
+<td>7.38</td>
+<td>9.97</td>
+<td>23.45</td>
+<td>34.85</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YF21_1_B5G1_2016</td>
+<td>8.09</td>
+<td>9.75</td>
+<td>23.21</td>
+<td>34.32</td>
+<td>176.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YF39_2_B1G1_2010</td>
+<td>7.71</td>
+<td>9.52</td>
+<td>23.75</td>
+<td>34.56</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YF42_2_B1G1_2010</td>
+<td>8.17</td>
+<td>10.25</td>
+<td>23.64</td>
+<td>34.6</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YF50_2_B5G2_2017</td>
+<td>8.09</td>
+<td>10.25</td>
+<td>23.53</td>
+<td>34.63</td>
+<td>187.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YH10_2_B5G2_2017</td>
+<td>8.63</td>
+<td>9.27</td>
+<td>23.54</td>
+<td>34.88</td>
+<td>181.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YI03_1_B5G2_2017</td>
+<td>7.61</td>
+<td>9.18</td>
+<td>23.61</td>
+<td>34.35</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YI22_1_B2G3_2013</td>
+<td>8.14</td>
+<td>12.49</td>
+<td>23.45</td>
+<td>34.66</td>
+<td>181.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YI32_2_B2G3_2013</td>
+<td>8.12</td>
+<td>11.73</td>
+<td>23.56</td>
+<td>34.72</td>
+<td>190.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YK54_2_B5G1_2016</td>
+<td>8.03</td>
+<td>8.16</td>
+<td>23.62</td>
+<td>34.32</td>
+<td>177.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YK67_2_B3G2_2013</td>
+<td>8.02</td>
+<td>14.07</td>
+<td>23.38</td>
+<td>34.83</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YL51_2_B4G2_2014</td>
+<td>7.95</td>
+<td>10.68</td>
+<td>23.45</td>
+<td>34.71</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YN39_1_B1G0_2009</td>
+<td>6.7</td>
+<td>8.93</td>
+<td>23.7</td>
+<td>34.83</td>
+<td>163.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YP02_1_B5G1_2016</td>
+<td>6.55</td>
+<td>9.95</td>
+<td>23.46</td>
+<td>34.34</td>
+<td>171.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YP34_1_B4G1_2013</td>
+<td>7.3</td>
+<td>9.15</td>
+<td>23.66</td>
+<td>34.65</td>
+<td>181.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YP50_1_B4G2_2014</td>
+<td>7.81</td>
+<td>11.48</td>
+<td>23.62</td>
+<td>34.33</td>
+<td>187.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YP51_2_B5G1_2016</td>
+<td>7.2</td>
+<td>8.33</td>
+<td>23.35</td>
+<td>33.59</td>
+<td>172.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YR06_1_B1G2_2011</td>
+<td>8.36</td>
+<td>9.71</td>
+<td>23.47</td>
+<td>34.8</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YR58_2_B5G1_2016</td>
+<td>7.67</td>
+<td>12.15</td>
+<td>23.53</td>
+<td>34.58</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YR66_2_B5G2_2017</td>
+<td>8.2</td>
+<td>10.95</td>
+<td>23.68</td>
+<td>34.64</td>
+<td>186.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YS03_1_B5G3_2018</td>
+<td>6.75</td>
+<td>8.7</td>
+<td>23.54</td>
+<td>34.69</td>
+<td>179.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YS63_1_B5G3_2018</td>
+<td>7.33</td>
+<td>8.56</td>
+<td>23.46</td>
+<td>34.54</td>
+<td>183.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YT07_2_B4G1_2013</td>
+<td>6.78</td>
+<td>9.82</td>
+<td>23.57</td>
+<td>34.65</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YT25_2_B4G3_2015</td>
+<td>7.45</td>
+<td>13.27</td>
+<td>23.62</td>
+<td>34.56</td>
+<td>180.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YT33_2_B4G3_2015</td>
+<td>7.73</td>
+<td>9.95</td>
+<td>23.67</td>
+<td>34.63</td>
+<td>182.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YT54_1_B1G1_2010</td>
+<td>7.91</td>
+<td>12.98</td>
+<td>23.81</td>
+<td>34.6</td>
+<td>178.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YV33_2_B2G2_2012</td>
+<td>6.96</td>
+<td>8.67</td>
+<td>23.56</td>
+<td>34.58</td>
+<td>173.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YY01_1_B2G1_2011</td>
+<td>8.03</td>
+<td>9.77</td>
+<td>23.49</td>
+<td>34.67</td>
+<td>184.0</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#EEEEEC';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+<td>YY17_2_B2G1_2011</td>
+<td>8.27</td>
+<td>8.94</td>
+<td>23.51</td>
+<td>34.71</td>
+<td>185.0</td>
+</tr>
+</table>
+</div>
+
+</div>
+</div> <!-- summary section -->
+
+
+
+<div class=section>
+
+<h2>PCA<a class="headerlink" name="PCA" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/PCA.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Coverage Across Reference<a class="headerlink" name="Coverage across reference" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Coverage across reference.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Coverage Histogram (0-50X)<a class="headerlink" name="Coverage Histogram (0-50X)" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Coverage Histogram (0-50X).png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Genome Fraction Coverage<a class="headerlink" name="Genome Fraction Coverage" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Genome Fraction Coverage.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Duplication Rate Histogram<a class="headerlink" name="Duplication Rate Histogram" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Duplication Rate Histogram.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Mapped reads GC-content<a class="headerlink" name="Mapped reads GC-content" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Mapped reads GC-content.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Mapped Reads Clipping Profile<a class="headerlink" name="Mapped Reads Clipping Profile" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Mapped Reads Clipping Profile.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Mapped Reads GC-content Distribution<a class="headerlink" name="Mapped Reads GC-content Distribution" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Mapped Reads GC-content Distribution.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Mapping Quality Across Reference<a class="headerlink" name="Mapping Quality Across Reference" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Mapping Quality Across Reference.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Mapping Quality Histogram<a class="headerlink" name="Mapping Quality Histogram" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Mapping Quality Histogram.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Insert Size Across Reference<a class="headerlink" name="Insert Size Across Reference" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Insert Size Across Reference.png"></div>
+
+</div><!-- graph section -->
+
+
+<div class=section>
+
+<h2>Insert Size Histogram<a class="headerlink" name="Insert Size Histogram" title="Permalink to this headline">&nbsp;</a></h2>
+
+<div><img width=100% src="images_multisampleBamQcReport/Insert Size Histogram.png"></div>
+
+</div><!-- graph section -->
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="sidebar">
+<h3>Contents</h3>
+<li class="toctree-l1"><a class="reference internal" href="#input">Input data & parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#summary">Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#PCA">PCA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Coverage across reference">Coverage Across Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Coverage Histogram (0-50X)">Coverage Histogram (0-50X)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Genome Fraction Coverage">Genome Fraction Coverage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Duplication Rate Histogram">Duplication Rate Histogram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Mapped reads GC-content">Mapped reads GC-content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Mapped Reads Clipping Profile">Mapped Reads Clipping Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Mapped Reads GC-content Distribution">Mapped Reads GC-content Distribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Mapping Quality Across Reference">Mapping Quality Across Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Mapping Quality Histogram">Mapping Quality Histogram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Insert Size Across Reference">Insert Size Across Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#Insert Size Histogram">Insert Size Histogram</a></li>
+</div> <!-- sidebar -->
+
+<div class="clearer"></div>
+</div>
+
+</div>
+
+
+<div class="footer-wrapper">
+<div class="footer">
+<div class="left">
+<div class="footer">
+2022/02/24 13:53:11
+</div>
+</div>
+<div class="right">
+<div class="footer">
+Generated by QualiMap v.2.1.1
+</div
+</div>
+<div class="clearer"></div>
+</div> <!-- footer -->
+</div>
+</body>
